@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.17.1](https://github.com/aws-amplify/amplify-category-api/compare/@aws-amplify/data-construct@1.17.0...@aws-amplify/data-construct@1.17.1) (2026-03-23)
+
+### Bug Fixes
+
+- address dependabot security alerts ([#3432](https://github.com/aws-amplify/amplify-category-api/issues/3432)) ([6ec1862](https://github.com/aws-amplify/amplify-category-api/commit/6ec1862d459867ee29947271ceafaed1774b072d))
+- dependabots + scripting and prompting to help with dependabots ([#3417](https://github.com/aws-amplify/amplify-category-api/issues/3417)) ([fb79e92](https://github.com/aws-amplify/amplify-category-api/commit/fb79e927edeefdca9b8388f447b6fd954b1a369a))
+
 # [1.17.0](https://github.com/aws-amplify/amplify-category-api/compare/@aws-amplify/data-construct@1.16.3...@aws-amplify/data-construct@1.17.0) (2026-02-05)
 
 ### Features
