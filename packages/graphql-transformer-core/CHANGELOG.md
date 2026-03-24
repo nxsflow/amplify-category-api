@@ -3,12 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [9.0.7](https://github.com/aws-amplify/amplify-category-api/compare/graphql-transformer-core@9.0.6...graphql-transformer-core@9.0.7) (2026-03-23)
-
-### Bug Fixes
-
-- address dependabot security alerts ([#3432](https://github.com/aws-amplify/amplify-category-api/issues/3432)) ([6ec1862](https://github.com/aws-amplify/amplify-category-api/commit/6ec1862d459867ee29947271ceafaed1774b072d))
-
 ## [9.0.6](https://github.com/aws-amplify/amplify-category-api/compare/graphql-transformer-core@9.0.5...graphql-transformer-core@9.0.6) (2026-02-05)
 
 **Note:** Version bump only for package graphql-transformer-core
