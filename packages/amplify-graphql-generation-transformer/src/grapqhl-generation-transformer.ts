@@ -272,13 +272,13 @@ export class GenerationTransformer extends TransformerPluginBase {
         }),
       );
 
-      // Statement 3 (global only): foundation-model ARN with wildcard region
+      // Statement 3 (global only): global foundation-model ARN (no region)
       if (GenerationTransformer.isGlobalInferenceProfile(bedrockModelId)) {
         statements.push(
           new iam.PolicyStatement({
             effect: iam.Effect.ALLOW,
             actions: ['bedrock:InvokeModel'],
-            resources: [`arn:${partition}:bedrock:*::foundation-model/${foundationModelId}`],
+            resources: [`arn:${partition}:bedrock:::foundation-model/${foundationModelId}`],
           }),
         );
       }
