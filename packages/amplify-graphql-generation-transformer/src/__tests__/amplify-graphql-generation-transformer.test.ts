@@ -417,8 +417,8 @@ describe('inference profile IAM policies', () => {
     const foundationModelArns = resourceStrings.filter((r: string) => r.includes('foundation-model/'));
     expect(foundationModelArns).toHaveLength(2);
 
-    // One should have a wildcard region (global ARN)
-    const hasGlobalArn = foundationModelArns.some((r: string) => r.includes(':bedrock:*:'));
+    // One should have an empty region (global ARN)
+    const hasGlobalArn = foundationModelArns.some((r: string) => r.includes(':bedrock:::'));
     expect(hasGlobalArn).toBe(true);
 
     // Both should reference the stripped foundation model ID
